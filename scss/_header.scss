@@ -1,0 +1,25 @@
+header {grid-area: header;}
+main {grid-area: main;}
+footer{grid-area: footer;}
+header, ul, footer{
+    display: flex;
+    justify-content: space-between;
+}
+ul{list-style-type: none;}
+li{padding: 20px;}
+a{text-decoration: none;}
+a:hover{
+    background-color: antiquewhite;
+    font-size: 45px;
+    color: white;
+    border-radius: 15px;
+    transition: 1s;
+}
+a:visited{
+    color: black;
+}
+.mt{margin-bottom: 5px;}
+header{background: rgb(217,217,217);
+    background: linear-gradient(0deg, rgba(217,217,217,1) 1%, rgba(217,223,217,1) 58%, rgba(0,212,255,1) 100%);
+
+}

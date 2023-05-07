@@ -1,0 +1,11 @@
+.grid-todo{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;}
+    footer{background: rgb(217,217,217);
+        background: linear-gradient(0deg, rgba(217,217,217,1) 1%, rgba(217,223,217,1) 58%, rgba(0,212,255,1) 100%);
+    margin-top: 5px; overflow: hidden;}

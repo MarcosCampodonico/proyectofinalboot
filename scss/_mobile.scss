@@ -1,0 +1,21 @@
+@media (max-width: 768px){
+    .justcont{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .barra-navegador{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    a:hover{
+        background-color: antiquewhite;
+        font-size: 45px;
+        color: white;
+        border-radius: 15px;
+        transition: 1s all;
+    }
+    a:visited{
+        color: black;
+    }
+}
